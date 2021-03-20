@@ -1,13 +1,12 @@
 // Form here I am writing my codes. please make du'a for me that may Allah make me successful. today is 3/20/2021.
-//
 
 #include <stdio.h>
 int main()
 {
     int a, b, anb, dif;
     char sign;
-    printf("Please enter your mother's age here: "); scanf("%d",&a);
     printf("Enter your father's age here: "); scanf("%d",&b);
+    printf("Please enter your mother's age here: "); scanf("%d",&a);
     printf("\n\n");
     anb=a+b; sign='+';    printf("Their age number's sum is %d %c %d : %d\n", a, sign, b, anb);
     anb=a-b; sign='-';    printf("Their age number's subtraction is %d %c %d : %d\n", a, sign, b, anb);
