@@ -8,7 +8,7 @@ int a, b, c, d, remain, beat, beat2;
     printf("Enter the Divisor here: ");
     scanf("%d",&b);
     printf("\n\n");
-//values are starting from here!!!
+// Main  values are starting from here!!!
     c = a/b;
     d = b*c;
     remain = a-d;
