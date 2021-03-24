@@ -5,11 +5,13 @@ int main()
     printf("Please write any letter: ");
     el=getchar();
     if(el == 'a' || el == 'e' || el == 'i' || el == 'o' || el == 'u'){
-        printf("%c is a lowercase vowel.", el);
+        printf("%c is a lowercase & vowel.", el);
     }
     else if(el == 'A'||el == 'E'||el == 'I'||el == 'O'||el == 'U'){
-        printf("%c is a uppercase vowel.", el);
+        printf("%c is a uppercase & vowel.", el);
     }
-
+    else{
+        printf("Hey, are you kidding me!!!\n it's not even a vowel man!!!\n\n");
+    }
     return 0;
 }
