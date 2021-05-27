@@ -9,11 +9,11 @@ int main()
     printf("Please enter your mother's age here: "); scanf("%d",&a);
     printf("\n\n");
     anb=a+b; sign='+';    printf("Their age number's sum is %d %c %d : %d\n", a, sign, b, anb);
-    anb=a-b; sign='-';    printf("Their age number's subtraction is %d %c %d : %d\n", a, sign, b, anb);
+if(a>b){anb=a-b; sign='-';printf("Their age number's subtraction is %d %c %d : %d\n", a, sign, b, anb);}
+else{anb=b-a; sign='-';   printf("Their age number's subtraction is %d %c %d : %d\n", b, sign, a, anb);}
     anb=a*b; sign='*';    printf("Their age number's multipication is %d %c %d : %d\n", a, sign, b, anb);
     anb=a/b; sign='/';    printf("Their age number's division is %d %c %d : %d\n", a, sign, b, anb);
         printf("\n\n");
-
 if(a==b){printf("Same age.");}
 else if(a < b){printf("Your father is elder than your mother.");}
 else{printf("Your father is younger than your mother.");}
@@ -32,7 +32,5 @@ else{printf("Your mother's age number is odd");}
 printf("\n\n");
 return 0;
 }
-
-
 
 
