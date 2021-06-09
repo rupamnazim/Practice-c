@@ -1,20 +1,14 @@
-#include<stdio.h>
- int main(){
+#include <stdio.h>
+#include <stdlib.h>
 
-        int x, y, '2';
-        x= y;
-        y= 2;
-        if(x=2){
-            y=3;
-            printf("%d",y);
-        }
-        if(x=2){
-            y=x;
-            x=2;
-            printf("%d",y);
-
-        }
-
- return 0;
- }
-
+int main()
+{
+    int a, b, c;
+    char  d= '²';
+     printf("Enter the value of a: "); scanf("%d",&a);
+     printf("Enter the value of b: "); scanf("%d",&b);
+        printf("(a+b)= %d",a+b); printf("\n");
+        printf("(a+b) %c= %d",d,(a+b)*(a+b)); printf("\n");
+        printf("a²-b²= %d",(a+b)*(a-b));
+    return 0;
+}
