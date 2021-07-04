@@ -4,7 +4,7 @@ int main(){
     printf("Choose any shape by number...\n\n1. Rectangle\n2. Square\n3. Triangle\n4. Circle\n\n");
 
     int first_input;
-    double pie = 3.1415926535897, lenth, width, area, amplitude, ground, height, radius;
+    double pie = 3.1415926535897, lenth, width, area, circumference, ground, height, radius;
 
     scanf("%d", &first_input);
 
@@ -21,14 +21,14 @@ int main(){
         }
         //area........................................
         area = lenth * width;
-        //amplitude...................................
-        amplitude = 2 * (lenth + width);
+        //circumference...................................
+        circumference = 2 * (lenth + width);
 
         //printing process............................
         printf("\n");
 
         printf("The area of that rectangle is: %.2lf\n", area);
-        printf("The amplititude of that rectangle is: %.2lf\n", amplitude);
+        printf("The circumference of that rectangle is: %.2lf\n", circumference);
 
     }
 
@@ -40,14 +40,14 @@ int main(){
 
         //area........................................
         area = lenth * lenth;
-        //amplitude...................................
-        amplitude = lenth * 4;
+        //circumference...................................
+        circumference = lenth * 4;
 
         //printing process............................
         printf("\n");
 
         printf("The area of that square is: %.2lf\n", area);
-        printf("The amplitude of that square is: %.2lf\n", amplitude);
+        printf("The circumference of that square is: %.2lf\n", circumference);
 
     }
 
@@ -60,7 +60,7 @@ int main(){
 
         //area............................................
         area = (ground * height) * 0.5;
-        //amplititude............................................
+        //circumference............................................
 
         //printing process.....................................
         printf("\n");
@@ -75,15 +75,15 @@ int main(){
 
         //area..................................................
         area = pie * (radius * radius);
-        //amplitude..................................................
-        amplitude = 2 * pie * radius;
+        //circumference..................................................
+        circumference = 2 * pie * radius;
 
 
         //printing process....................................
         printf("\n");
 
         printf("The area of that circle is: %.4lf\n", area);
-        printf("The amplitude of that circle is: %.4lf\n", amplitude);
+        printf("The circumference of that circle is: %.4lf\n", circumference);
 
     }
 
